@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Exercise Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>EXERCISE</th>
+                    <th>SETS</th>
+                    <th>REPS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr onclick="showDetails('Jumping Jacks', '1 set of 30-60 sec')">
+                    <td>Jumping Jacks</td>
+                    <td>1</td>
+                    <td>30-60 sec</td>
+                </tr>
+                <tr onclick="showDetails('Squats', '2-4 sets to MAX reps')">
+                    <td>Squats</td>
+                    <td>2-4</td>
+                    <td>MAX</td>
+                </tr>
+                <tr onclick="showDetails('Push Ups', '2-4 sets to MAX reps')">
+                    <td>Push Ups</td>
+                    <td>2-4</td>
+                    <td>MAX</td>
+                </tr>
+                <tr onclick="showDetails('Pull Ups', '2-4 sets to MAX reps')">
+                    <td>Pull Ups</td>
+                    <td>2-4</td>
+                    <td>MAX</td>
+                </tr>
+                <tr onclick="showDetails('Stiff Legged Dead Lift', '2-4 sets to MAX reps')">
+                    <td>Stiff Legged Dead Lift</td>
+                    <td>2-4</td>
+                    <td>MAX</td>
+                </tr>
+                <tr onclick="showDetails('Pike Push Ups', '2-4 sets to MAX reps')">
+                    <td>Pike Push Ups</td>
+                    <td>2-4</td>
+                    <td>MAX</td>
+                </tr>
+                <tr onclick="showDetails('Inverted Row', '2-4 sets to MAX reps')">
+                    <td>Inverted Row</td>
+                    <td>2-4</td>
+                    <td>MAX</td>
+                </tr>
+                <tr onclick="showDetails('Ab Crunches', '2-4 sets to MAX reps')">
+                    <td>Ab Crunches</td>
+                    <td>2-4</td>
+                    <td>MAX</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="details"></div>
+    <script src="script.js"></script>
+</body>
+</html>
